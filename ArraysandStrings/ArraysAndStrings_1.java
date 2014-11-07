@@ -38,7 +38,7 @@ public class ArraysAndStrings_1{
   string.charAt(i) returns the char in the string index; for str="abc", str.charAt(0) returns "a";
 
   key: 
-  * ask if the string is ASCII or unicode?
+  * ask if the string is ASCII or Unicode?
   * if > 256, isUnique() returns false
 
 */
