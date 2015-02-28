@@ -50,7 +50,7 @@ public class ArraysAndStrings_7{
 	}
 }
 
-/*
+/* Similar to Set Matrix Zeroes - https://oj.leetcode.com/problems/set-matrix-zeroes/
  
   key: 
   * two dimension array and nested loops
