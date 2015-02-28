@@ -54,7 +54,9 @@ public class ArraysAndStrings_6{
 	}
 }
 
-/*  The original matrix is: 
+/*  Similar to Rotate Image - https://oj.leetcode.com/problems/rotate-image/
+    
+    The original matrix is: 
     1  2  3  4  
     5  6  7  8  
     9  10  11  12  
