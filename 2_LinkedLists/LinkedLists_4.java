@@ -34,7 +34,7 @@ public class LinkedLists_4{
 }
 
 /*
-
+  Similar to Leetcode Partition List - https://oj.leetcode.com/problems/partition-list/
   key: 
   * remember node operation and check for null
 
