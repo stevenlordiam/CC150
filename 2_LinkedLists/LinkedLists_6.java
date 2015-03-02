@@ -39,10 +39,13 @@ public class LinkedLists_6{
 /*
   THIS QUESTION IS IMPORTANT, SEE THE SOLUTION IN THE BOOK!!!
   
+  Similar to Leetcode OJ - Linked List Cycle I/II:
+  https://oj.leetcode.com/problems/linked-list-cycle/
+  https://oj.leetcode.com/problems/linked-list-cycle-ii/
+
   key: 
   * First, detect if there is a loop or not
   * FastRunner/SlowRunner approach
   * Detailed solution in the book
 
 */
-
