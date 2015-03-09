@@ -35,6 +35,8 @@ public class RecursionAndDynamicProgramming_5 {
 }
 
 /*
+Similar to Leetcode OJ Permutations - https://leetcode.com/problems/permutations/
+
 Base case and build approach, similar to CC150 (9-4) subsets
 
 str.substring(i) - return the substring using i as beginning index
