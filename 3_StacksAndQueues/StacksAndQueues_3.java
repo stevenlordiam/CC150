@@ -39,4 +39,3 @@ public class StacksAndQueues_3 {
   * be careful if the last stack is at capacity, we need to create a new stack
   * see the implement of popAt(int index) in the book
 */
-

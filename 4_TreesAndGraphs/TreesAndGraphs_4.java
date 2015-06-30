@@ -4,7 +4,7 @@
  * Given a binary tree, design an algorithm which creates a linked list of all the nodes at each depth (e.g., if you have a tree with depth D, you'll have D linked lists).
  */
 
-public class TreesAndGraphs_4 {		// recursive solution, DFS
+public class TreesAndGraphs_4 {		// recursive solution, DFS, O(N) time, O(N) space
 	public void createLevelLinkedList(TreeNode root, ArrayList<LinkedList<TreeNode>> lists, int level){
 		if(root == null){
 			return;
@@ -38,7 +38,7 @@ public class TreesAndGraphs_4 {		// recursive solution, DFS
 */
 
 
-// iterative solution, BFS
+// iterative solution, BFS, O(N) time, O(N) space
 public ArrayList<LinkedList<TreeNode>> createLevelLinkedList(TreeNode root){
 	ArrayList<LinkedList<TreeNode>> result = new ArrayList<LinkedList<TreeNode>>();
 	/* Visit the root */

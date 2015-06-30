@@ -41,7 +41,7 @@ public class StacksAndQueues_2 extends Stack<Integer> { 	// keep a second stack 
   key: 
   * Same question in Leetcode OJ Min Stack - https://oj.leetcode.com/problems/min-stack/
 	------------------------------------------------------------------------
-	class MinStack {
+	public class MinStack {
     	private Stack<Integer> stack = new Stack<>();
     	private Stack<Integer> minStack = new Stack<>();
     	public void push(int x) {

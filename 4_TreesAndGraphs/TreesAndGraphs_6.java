@@ -9,12 +9,12 @@ public class TreesAndGraphs_6 {
 		if(n == null){
 			return null;
 		}
-		if(n.right != null){ 	// Found right children -> return leftmost node of right subtree
+		if(n.right != null){ 	// 1. 有右子树，返回右子树最左node
 			return leftmostChild(n.right);
 		} else {
 			TreeNode q = n;
 			TreeNode x = q.parent;      
-			while(x != null && x.left != q){ 	// go up until we're on left instead of right
+			while(x != null && x.left != q){ 	// 2. 没有右子树或者本身就是右子树则上升直到有右子树
 				q = x;
 				x = x.parent;
 			}
@@ -34,8 +34,9 @@ public class TreesAndGraphs_6 {
 }
 
 /*
+  Similar to Leetcode OJ BST Iterator - https://leetcode.com/problems/binary-search-tree-iterator/
 
   key: 
   * Inorder traversal, next node is on the right side, and is the leftmost node on the right subtree
-
+  * Solution 2: BST Iterator - use a stack
 */

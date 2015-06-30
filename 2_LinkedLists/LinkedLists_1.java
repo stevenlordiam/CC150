@@ -30,7 +30,7 @@ public class LinkedLists_1{
 		while(current!=null){
 			LinkedListNode runner = current;
 			while(runner.next!=null){
-				if(runner.next.date==current.data){
+				if(runner.next.data==current.data){
 					runner.next=runner.next.next;
 				}else{
 					runner=runner.next;
@@ -52,4 +52,3 @@ https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
   * Iterate through the linked list, add each element to hash table. When found dups, remove it and continue iterating
 
 */
-

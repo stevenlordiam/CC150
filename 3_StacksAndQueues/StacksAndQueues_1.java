@@ -23,7 +23,7 @@ public class StacksAndQueues_1 {
 		}
 		int value = buffer[absTopOfStack(stackNum)]; 	// get top
 		buffer[absTopOfStack(stackNum)] = 0; 			// clear index
-		stcakPointer[stackNum]--;
+		stackPointer[stackNum]--;
 		return value;
 	}
 
@@ -48,4 +48,3 @@ public class StacksAndQueues_1 {
   * Check exception for push a full stack and pop an empty stack
 
 */
-

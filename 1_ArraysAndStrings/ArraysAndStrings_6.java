@@ -16,7 +16,7 @@ public class ArraysAndStrings_6{
                 matrix[j][i]=tmp1;
             }
         }
-       for(int i=0; i<n; i++){                          //second time, swap row[i](vertical) and row[n-1-i]
+       for(int i=0; i<n; i++){                          //second time, swap column[i](vertical) and column[n-1-i]
             for(int j=0; j<n/2; j++){                   //note it's j<n/2, if it's anticlockwise then it's i<n/2
                 int tmp2=matrix[i][j];
                 matrix[i][j]=matrix[i][n-1-j];
@@ -68,7 +68,7 @@ public class ArraysAndStrings_6{
     3  7  11  15  
     4  8  12  16  
 
-    After second rotation, the matrix is: (swap row[i](vertical) and row[n-1-i])
+    After second rotation, the matrix is: (swap column[i](vertical) and column[n-1-i])
     13  9  5  1  
     14  10  6  2  
     15  11  7  3  

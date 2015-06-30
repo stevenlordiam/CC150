@@ -41,5 +41,6 @@ public class ArraysAndStrings_1{
   * ask if the string is ASCII or Unicode?
   * if > 256, isUnique() returns false
 
+方法二：char array
+方法三：bit vector
 */
-

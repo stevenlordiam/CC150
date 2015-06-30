@@ -39,4 +39,3 @@ public class LinkedLists_4{
   * remember node operation and check for null
 
 */
-

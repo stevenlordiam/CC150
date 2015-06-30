@@ -33,6 +33,7 @@ public class TreesAndGraphs_7 {
 }
 
 /*
+  Similar to Leetcode OJ Lowest Common Ancestor - http://www.lintcode.com/en/problem/lowest-common-ancestor/
 
   key: 
   * O(N) time

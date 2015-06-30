@@ -17,7 +17,7 @@ public class ArraysAndStrings_5{
 			if(string.charAt(i)==lastChar){
 				count++;
 			}else{
-				tmpString+=lastChar+""+count;	// ""+int makes int to string		
+				tmpString+=lastChar+""+count;	// ""+int makes char to string		
 				lastChar=string.charAt(i);
 				count=1;
 			}
@@ -43,6 +43,6 @@ public class ArraysAndStrings_5{
 /*This implement is not efficient. A better solution is StringBuffer. See the code in the book.
  
   key: 
-  * ""+int makes int to string	
+  * ""+int makes char to string	
   
 */

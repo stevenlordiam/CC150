@@ -33,7 +33,7 @@ public class LinkedLists_5{
 		if(l1!=null || l2!=null){
 			LinkedListNode more = addLists(l1==null?null:l1.next,
 										   l2==null?null:l2.next
-										   value>=0?1:0); 			// recursion
+										   value>=10?1:0); 			// recursion
 			result.setNext(more);
 		}
 		return result;
@@ -51,4 +51,3 @@ public class LinkedLists_5{
   * If it's reverse order: 123 = (1->2->3): 
   	compare the lengths of the lists in the beginning and padding the shorter list with zeros.
 */
-

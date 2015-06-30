@@ -48,4 +48,3 @@ public class StacksAndQueues_5<T> { 		// use generics
     do a shift stack operation to reverse the order
     
 */
-
