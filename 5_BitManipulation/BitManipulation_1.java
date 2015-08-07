@@ -1,7 +1,7 @@
 /** 
  * Chapter 5-Bit Manipulation
  * Question 5-1
- * You aregiven two 32-bit numbers, Nand M, andtwo bit positions, land j.
+ * You aregiven two 32-bit numbers, N and M, andtwo bit positions, land j.
  * Write a method to insert M into Nsuch that M starts at bit j and ends at bit i. 
  * You can assume that the bits j through i have enough space to fit all of M. 
  * That is, if M = 10011, you canassumethat there areat least 5 bits between j and i. 
